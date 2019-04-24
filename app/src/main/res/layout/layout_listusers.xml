@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="6"
+    android:rowCount="1"
+    android:padding="8dp"
+    android:id="@+id/parent_layout">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="1"
+        android:gravity="fill"
+        android:textSize="20dp"
+        android:id="@+id/number" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="2"
+        android:text="홍길동"
+        android:gravity="fill"
+        android:textSize="20dp"
+        android:id="@+id/name" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="5"
+        android:text="000-0000-0000"
+        android:gravity="fill"
+        android:textSize="20dp"
+        android:id="@+id/phone" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="2"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:gravity="fill"
+        android:text="메세지"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="메모"
+        android:id="@+id/memo"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_columnWeight="2"
+        android:gravity="fill"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/message"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="삭제"
+        android:id="@+id/delete"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_columnWeight="2"
+        android:gravity="fill"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/memo"/>
+
+</GridLayout>

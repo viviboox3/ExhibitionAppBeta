@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExhibitionBeta</string>
+    <string name="name_msg">홍길동</string>
+    <string name="phone_msg">Enter phone number</string>
+    <string name="email_msg">Enter email</string>
+    <string name="btn_next">Next ></string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="survey_text">survey question</string>
+    <string name="logo">Logo</string>
+    <string name="name_prompt">이름을 \n적어주세요!</string>
+    <string name="phone_prompt">번호를 \n적어주세요!</string>
+    <string name="next"><![CDATA[NEXT >]]></string>
+</resources>
